@@ -1,1 +1,7 @@
-Do an tot nghiep 2023
+Đồ án tốt nghiệp 2023
+
+Run API
+npm run dev
+
+Run UI
+npm start
