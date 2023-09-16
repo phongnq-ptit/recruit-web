@@ -1,7 +1,11 @@
-Đồ án tốt nghiệp 2023
+## Đồ án tốt nghiệp 2023
 
-Run API
-npm run dev
+Website tuyển dụng nghề nghiệp 
 
-Run UI
-npm start
+## Chạy Project
+
+-  **Run ui**
+	> npm start
+
+-  **Run api**
+	> npm run dev
