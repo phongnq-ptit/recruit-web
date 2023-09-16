@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 3
+    },
+    "auditLog": "/home/phongnq/Documents/DOAN/api/logs/.225882b1f3dc0fcbde88acb26398cfb322921c9d-audit.json",
+    "files": [
+        {
+            "date": 1694877279477,
+            "name": "/home/phongnq/Documents/DOAN/api/logs/logs-2023-09-16.log",
+            "hash": "ba34190b191180e720388b42576e1ecc6a960c804bdc637a15f644b9945cfb2f"
+        }
+    ],
+    "hashType": "sha256"
+}
