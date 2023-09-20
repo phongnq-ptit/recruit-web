@@ -8,9 +8,9 @@ export abstract class AbstractEntity extends BaseEntity {
   @Generated('uuid')
   uuid: string
 
-  @CreateDateColumn({ type: 'timestamptz' })
+  @CreateDateColumn({ type: 'datetime' })
   createdAt!: Date
 
-  @UpdateDateColumn({ type: 'timestamptz' })
+  @UpdateDateColumn({ type: 'datetime' })
   updatedAt!: Date
 }

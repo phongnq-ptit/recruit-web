@@ -9,6 +9,7 @@ import routes from '@/routes'
 import logger from '@/configs/logger.config'
 import 'reflect-metadata'
 import '@/utils/response'
+import cookieParser from 'cookie-parser'
 
 class Server {
   private app: Express
@@ -26,6 +27,7 @@ class Server {
     this.app.use(helmet())
     this.app.use(bodyParser.json({ limit: '50mb' }))
     this.app.use(bodyParser.urlencoded({ limit: '50mb', extended: false }))
+    this.app.use(cookieParser())
     this.app.use('/api', routes)
     this.app.use(exceptionFilter)
   }
